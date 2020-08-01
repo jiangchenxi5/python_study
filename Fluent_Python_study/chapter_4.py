@@ -25,6 +25,3 @@ for codec in ['gb2312', 'utf_8', 'utf_16']:
 # 处理UnicodeEncodeError errors常用的ignore(忽视跳过)\replace(替换成?)\xmlcharrefreplace(替换为XML实体)
 # Python默认编码UTF-8
 # 别依赖编码指定值
-# 编码与解码
-for codec in ['gb2312', 'utf_8', 'utf_16']:
-    print(codec, 'EL ab 中国'.encode(codec), sep='\t')
